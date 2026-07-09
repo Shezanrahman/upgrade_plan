@@ -2,4 +2,75 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+.upgrade_parent{
+    background-color: black;
+}
+.upgrade{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1280px;
+    margin: auto;
+    min-height: 100vh;
+    color: white;
+}
+.upgrade_head{
+    margin: 70px 0px 40px 0px;
+}
+.upgrade_info{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 15px;
+.free{
+    background-color: #212121;
+    padding: 20px 20px;
+    border-radius: 12px;
+    border: 1px solid #303335;
+}
+.price{
+    display: flex;
+    margin-top: 30px;
+}
+.price p{
+    margin:8px 0px 0px 4px;
+}
+.pice_des p{
+    margin-top: 15px;
+}
+.free button{
+    margin-top: 15px;
+    padding: 5px 70px;
+    border-radius: 50px;
+    background-color:#212121;
+    border: 1px solid #303335;
+    color: #8a9094;
+}
+.price_about p{
+    margin-top: 20px;
+}
+.price_about{
+    margin-bottom: 300px;
+}
+.footer_info p{
+    font-size: 10px;
+}
+.footer_info a{
+    color: white;
+}
+.go{
+    background-color: #212121;
+    border-radius: 12px;
+    border: 1px solid #303335;
+}
+.plus{
+    background-image: linear-gradient(45deg,#212121,#274B72);
+    border-radius: 12px;
+    border: 1px solid #5Ab3FF;
+}
+.pro{
+    background-color: #212121;
+    border-radius: 12px;
+    border: 1px solid #303335;
 }
